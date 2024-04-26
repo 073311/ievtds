@@ -152,10 +152,10 @@ return [
     |
     */
     'composer' => [
-        'vendor' => 'akaunting',
+        'vendor' => 'ievtds',
         'author' => [
-            'name' => 'Akaunting',
-            'email' => 'info@akaunting.com',
+            'name' => 'ievtds',
+            'email' => 'info@ievtds.com',
         ],
     ],
 

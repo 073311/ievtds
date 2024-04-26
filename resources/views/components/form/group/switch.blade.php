@@ -1,6 +1,6 @@
 @stack($name . '_input_start')
 
-  <akaunting-switch
+  <ievtds-switch
     name="{{ $name }}"
     value="{{ (int) $value }}"
     label="{{ trans('general.enabled') }}"
@@ -21,6 +21,6 @@
     @change="{{ $attributes['change'] }}($event)"
     @endif
     >
-  </akaunting-switch>
+  </ievtds-switch>
 
 @stack($name . '_input_end')

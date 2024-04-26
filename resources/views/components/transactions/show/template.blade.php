@@ -63,7 +63,7 @@
             @include($transactionTemplate)
     @endswitch
     
-    <akaunting-connect-transactions
+    <ievtds-connect-transactions
         :show="connect.show"
         :transaction="connect.transaction"
         :currency="connect.currency"
@@ -71,5 +71,5 @@
         :translations="{{ json_encode($connectTranslations) }}"
         modal-dialog-class="max-w-screen-lg"
         v-on:close-modal="connect.show = false"
-    ></akaunting-connect-transactions>
+    ></ievtds-connect-transactions>
 </div>

@@ -457,7 +457,7 @@
             </x-show.content>
         </x-show.container>
 
-        <akaunting-connect-transactions
+        <ievtds-connect-transactions
             :show="connect.show"
             :transaction="connect.transaction"
             :currency="connect.currency"
@@ -465,7 +465,7 @@
             :translations="{{ json_encode($transactions) }}"
             modal-dialog-class="max-w-screen-lg"
             v-on:close-modal="connect.show = false"
-        ></akaunting-connect-transactions>
+        ></ievtds-connect-transactions>
     </x-slot>
 
     <x-script folder="banking" file="accounts" />

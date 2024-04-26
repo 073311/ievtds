@@ -2,7 +2,7 @@
 
 namespace App\Widgets;
 
-use Akaunting\Apexcharts\Chart;
+use ievtds\Apexcharts\Chart;
 use App\Abstracts\Widget;
 use App\Models\Banking\Transaction;
 use App\Traits\Charts;

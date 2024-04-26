@@ -9,7 +9,7 @@ use App\Interfaces\Job\ShouldUpdate;
 use App\Models\Common\Company;
 use App\Models\Setting\Currency;
 use App\Traits\Users;
-use Akaunting\Money\Currency as MoneyCurrency;
+use ievtds\Money\Currency as MoneyCurrency;
 use OutOfBoundsException;
 
 class UpdateCompany extends Job implements ShouldUpdate

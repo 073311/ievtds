@@ -60,7 +60,7 @@ return [
      * or `Illuminate\Support` to ignore a subset of the namespace.
      */
     'ignored_namespaces' => [
-        'Akaunting',
+        'ievtds',
         'Barryvdh',
         'Collective',
         'Composer',

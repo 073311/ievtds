@@ -1,6 +1,6 @@
 <?php
 
-namespace Akaunting\Module\Commands;
+namespace ievtds\Module\Commands;
 
 use App\Console\Commands\UninstallModule;
 

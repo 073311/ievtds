@@ -2,7 +2,7 @@
 
 namespace App\Abstracts\View\Components\Documents;
 
-use Akaunting\Module\Module;
+use ievtds\Module\Module;
 use App\Abstracts\View\Component;
 use App\Events\Common\BulkActionsAdding;
 use App\Traits\Documents;

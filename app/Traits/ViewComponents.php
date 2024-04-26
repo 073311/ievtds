@@ -2,7 +2,7 @@
 
 namespace App\Traits;
 
-use Akaunting\Module\Module;
+use ievtds\Module\Module;
 use App\Events\Common\BulkActionsAdding;
 use App\Traits\Modules;
 use Illuminate\Support\Arr;
@@ -637,7 +637,7 @@ trait ViewComponents
                 break;
         }
 
-        return 'https://akaunting.com/docs/user-manual/' . $docsPath;
+        return 'https://ievtds.com/docs/user-manual/' . $docsPath;
     }
 
     public function getSuggestionModule()

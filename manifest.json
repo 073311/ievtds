@@ -1,6 +1,6 @@
 {
-    "name": "Akaunting",
-    "short_name": "Akaunting",
+    "name": "ievtds",
+    "short_name": "ievtds",
     "description": "Free invoicing and accounting software for small businesses and freelancers.",
     "categories": [
         "finance",
@@ -11,17 +11,17 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "orientation": "any",
-    "android_package_name": "com.akaunting.akaunting",
+    "android_package_name": "com.ievtds.ievtds",
     "prefer_related_applications": true,
     "related_applications": [
         {
-            "id": "com.akaunting.akaunting",
+            "id": "com.ievtds.ievtds",
             "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.akaunting.akaunting"
+            "url": "https://play.google.com/store/apps/details?id=com.ievtds.ievtds"
         },
         {
             "platform": "itunes",
-            "url": "https://apps.apple.com/us/app/akaunting/id1573240410"
+            "url": "https://apps.apple.com/us/app/ievtds/id1573240410"
         }
     ],
     "splash": {

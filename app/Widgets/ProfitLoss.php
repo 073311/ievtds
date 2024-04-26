@@ -6,7 +6,7 @@ use App\Abstracts\Widget;
 use App\Utilities\Recurring;
 use App\Models\Document\Document;
 use App\Models\Banking\Transaction;
-use Akaunting\Apexcharts\Chart;
+use ievtds\Apexcharts\Chart;
 use App\Traits\Currencies;
 use App\Traits\DateTime;
 use App\Utilities\Date;

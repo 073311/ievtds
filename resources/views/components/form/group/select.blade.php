@@ -1,9 +1,9 @@
 @stack($name . '_input_start')
 
     @if (! empty($remote))
-    <akaunting-select-remote
+    <ievtds-select-remote
     @else
-    <akaunting-select
+    <ievtds-select
     @endif
         @class([
             'relative',
@@ -188,9 +188,9 @@
         @endif
     >
     @if (! empty($remote))
-    </akaunting-select-remote>
+    </ievtds-select-remote>
     @else
-    </akaunting-select>
+    </ievtds-select>
     @endif
 
 @stack($name . '_input_end')

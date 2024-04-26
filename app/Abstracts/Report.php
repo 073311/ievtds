@@ -2,7 +2,7 @@
 
 namespace App\Abstracts;
 
-use Akaunting\Apexcharts\Chart;
+use ievtds\Apexcharts\Chart;
 use App\Events\Report\DataLoaded;
 use App\Events\Report\DataLoading;
 use App\Events\Report\FilterApplying;

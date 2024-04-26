@@ -16,7 +16,7 @@ class Versions
     {
         $output = '';
 
-        $url = 'https://api.github.com/repos/akaunting/akaunting/releases';
+        $url = 'https://api.github.com/repos/073311/ievtds/releases';
 
         $http = new \GuzzleHttp\Client(['verify' => false]);
 
@@ -76,7 +76,7 @@ class Versions
         $versions = [];
 
         // Check core first
-        $url = 'core/version/' . $info['akaunting'] . '/' . $info['php'] . '/' . $info['mysql'] . '/' . $info['companies'];
+        $url = 'core/version/' . $info['ievtds'] . '/' . $info['php'] . '/' . $info['mysql'] . '/' . $info['companies'];
 
         # Installed modules start
         $modules = Arr::wrap($modules);
@@ -89,7 +89,7 @@ class Versions
                 $module = module($module);
             }
 
-            if (! $module instanceof \Akaunting\Module\Module) {
+            if (! $module instanceof \ievtds\Module\Module) {
                 continue;
             }
 
@@ -103,7 +103,7 @@ class Versions
         $url .= $module_version;
         # Installed modules end
 
-        $versions['core'] = static::getLatestVersion($url, $info['akaunting']);
+        $versions['core'] = static::getLatestVersion($url, $info['ievtds']);
 
         // Then modules
         foreach ($modules as $module) {
@@ -111,14 +111,14 @@ class Versions
                 $module = module($module);
             }
 
-            if (! $module instanceof \Akaunting\Module\Module) {
+            if (! $module instanceof \ievtds\Module\Module) {
                 continue;
             }
 
             $alias = $module->get('alias');
             $version = $module->get('version');
 
-            $url = 'apps/' . $alias . '/version/' . $version . '/' . $info['akaunting'];
+            $url = 'apps/' . $alias . '/version/' . $version . '/' . $info['ievtds'];
 
             $versions[$alias] = static::getLatestVersion($url, $version);
         }
@@ -133,13 +133,13 @@ class Versions
         $info = Info::all();
 
         // Check core first
-        $url = 'core/version/' . $info['akaunting'] . '/' . $info['php'] . '/' . $info['mysql'] . '/' . $info['companies'];
-        $version = $info['akaunting'];
+        $url = 'core/version/' . $info['ievtds'] . '/' . $info['php'] . '/' . $info['mysql'] . '/' . $info['companies'];
+        $version = $info['ievtds'];
 
         if ($alias != 'core') {
             $version = module($alias)->get('version');
 
-            $url = 'apps/' . $alias . '/version/' . $version . '/' . $info['akaunting'];
+            $url = 'apps/' . $alias . '/version/' . $version . '/' . $info['ievtds'];
         }
 
         // Get data from cache
@@ -198,7 +198,7 @@ class Versions
             } else {
                 $module = module($alias);
 
-                if (!$module instanceof \Akaunting\Module\Module) {
+                if (!$module instanceof \ievtds\Module\Module) {
                     continue;
                 }
 

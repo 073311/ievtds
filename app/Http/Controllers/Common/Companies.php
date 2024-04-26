@@ -10,7 +10,7 @@ use App\Jobs\Common\UpdateCompany;
 use App\Models\Common\Company;
 use App\Traits\Uploads;
 use App\Traits\Users;
-use Akaunting\Money\Currency as MoneyCurrency;
+use ievtds\Money\Currency as MoneyCurrency;
 
 class Companies extends Controller
 {

@@ -426,7 +426,7 @@ trait Modules
 
     public function moduleExists($alias)
     {
-        if (! module($alias) instanceof \Akaunting\Module\Module) {
+        if (! module($alias) instanceof \ievtds\Module\Module) {
             return false;
         }
 
@@ -440,7 +440,7 @@ trait Modules
         }
 
         // Check if module is installed in cloud
-        if (request()->getHost() == 'app.akaunting.com' || request()->getHost() == 'localhost') {
+        if (request()->getHost() == 'app.ievtds.com' || request()->getHost() == 'localhost') {
             $modules = Cache::get('cloud.companies.' . company_id() . '.modules.installed', []);
 
             if (in_array($alias, $modules)) {

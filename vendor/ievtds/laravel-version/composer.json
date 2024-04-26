@@ -1,0 +1,39 @@
+{
+    "name": "ievtds/laravel-version",
+    "description": "Version management package for Laravel",
+    "keywords": [
+        "laravel",
+        "version"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Duliçi",
+            "email": "info@ievtds.com",
+            "homepage": "https://ievtds.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=5.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ievtds\\Version\\": "./src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ievtds\\Version\\Provider"
+            ],
+            "aliases": {
+                "Version": "ievtds\\Version\\Facade"
+            }
+        }
+    }
+}

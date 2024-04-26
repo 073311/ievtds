@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @package     Akaunting
- * @copyright   2017-2022 Akaunting. All rights reserved.
+ * @package     ievtds
+ * @copyright   2017-2022 ievtds. All rights reserved.
  * @license     GNU GPL version 3; see LICENSE.txt
- * @link        https://akaunting.com
+ * @link        https://ievtds.com
  */
 
 define('LARAVEL_START', microtime(true));

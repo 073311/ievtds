@@ -2,7 +2,7 @@
 
 namespace App\Models\Common;
 
-use Akaunting\Sortable\Traits\Sortable;
+use ievtds\Sortable\Traits\Sortable;
 use App\Events\Common\CompanyForgettingCurrent;
 use App\Events\Common\CompanyForgotCurrent;
 use App\Events\Common\CompanyMadeCurrent;

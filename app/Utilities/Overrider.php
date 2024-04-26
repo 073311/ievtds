@@ -2,7 +2,7 @@
 
 namespace App\Utilities;
 
-use Akaunting\Money\Money;
+use ievtds\Money\Money;
 use App\Models\Setting\Currency;
 
 class Overrider
@@ -86,6 +86,6 @@ class Overrider
         }
 
         // Set currencies with new settings
-        \Akaunting\Money\Currency::setCurrencies(config('money.currencies'));
+        \ievtds\Money\Currency::setCurrencies(config('money.currencies'));
     }
 }

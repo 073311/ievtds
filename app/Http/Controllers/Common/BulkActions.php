@@ -36,7 +36,7 @@ class BulkActions extends Controller
         $module = module($group);
         $page = ucfirst($type);
 
-        if ($module instanceof \Akaunting\Module\Module) {
+        if ($module instanceof \ievtds\Module\Module) {
             $tmp = explode('.', $type);
             $file_name = !empty($tmp[1]) ? Str::studly($tmp[0]) . '\\' . Str::studly($tmp[1]) : Str::studly($tmp[0]);
 

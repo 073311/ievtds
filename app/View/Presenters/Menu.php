@@ -2,7 +2,7 @@
 
 namespace App\View\Presenters;
 
-use Akaunting\Menu\Presenters\Presenter;
+use ievtds\Menu\Presenters\Presenter;
 use Illuminate\Support\Str;
 
 class Menu extends Presenter
@@ -122,7 +122,7 @@ class Menu extends Presenter
     /**
      * Get multilevel menu wrapper.
      *
-     * @param \Akaunting\Menu\MenuItem $item
+     * @param \ievtds\Menu\MenuItem $item
      *
      * @return string`
      */
@@ -272,7 +272,7 @@ class Menu extends Presenter
         $path = base_path($base_path . $slug . '.svg');
 
         if (! file_exists($path)) {
-            $path = 'public/img/akaunting-logo-purple.svg';
+            $path = 'public/img/ievtds-logo-purple.svg';
         }
 
         return $path;

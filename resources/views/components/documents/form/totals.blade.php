@@ -225,14 +225,14 @@
                         <td class="border-t-0 pt-5 pb-0"></td>
 
                         <td colspan="2" class="ltr:text-right rtl:text-left border-t-0 border-r-0 align-middle pt-5 pb-0 pr-0">
-                            <akaunting-currency-conversion
+                            <ievtds-currency-conversion
                                 currency-conversion-text="{{ trans('currencies.conversion') }}"
                                 :price="(totals.total / form.currency_rate).toFixed(2)"
                                 :currecy-code="form.currency_code"
                                 :currency-rate="form.currency_rate"
                                 :currency-symbol="currency_symbol"
                                 @change="form.currency_rate = $event"
-                            ></akaunting-currency-conversion>
+                            ></ievtds-currency-conversion>
                         </td>
 
                         <td class="border-t-0 pt-5 pb-0" style="max-width: 50px"></td>

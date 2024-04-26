@@ -2,7 +2,7 @@
 
 namespace App\Models\Auth;
 
-use Akaunting\Sortable\Traits\Sortable;
+use ievtds\Sortable\Traits\Sortable;
 use App\Notifications\Auth\Reset;
 use App\Traits\Media;
 use App\Traits\Owners;

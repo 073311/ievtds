@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Common;
 
 use App\Abstracts\Http\Controller;
-use Akaunting\Module\Module;
+use ievtds\Module\Module;
 
 class Import extends Controller
 {
@@ -48,7 +48,7 @@ class Import extends Controller
             $form_params['url'] = $path . '/import';
         }
 
-        $document_link = 'https://akaunting.com/hc/docs/import-export/';
+        $document_link = 'https://ievtds.com/hc/docs/import-export/';
 
         return view('common.import.create', compact('group', 'type', 'path', 'route', 'form_params', 'title_type', 'sample_file', 'document_link'));
     }

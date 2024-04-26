@@ -24,7 +24,7 @@ class Company extends Factory
         return [
             'name' => $this->faker->company,
             'email' => $this->faker->freeEmail,
-            'currency' => $this->faker->randomElement(array_keys(\Akaunting\Money\Currency::getCurrencies())),
+            'currency' => $this->faker->randomElement(array_keys(\ievtds\Money\Currency::getCurrencies())),
             'country' => $this->faker->randomElement(array_keys(trans('countries'))),
             'enabled' => $this->faker->boolean ? 1 : 0,
         ];

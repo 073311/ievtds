@@ -44,7 +44,7 @@
                 <input type="hidden" name="cancel_return" value="{{ $invoice_url }}" />
                 <input type="hidden" name="paymentaction" value="{{ $setting['transaction'] }}" />
                 <input type="hidden" name="custom" value="{{ $invoice->id }}" />
-                <input type="hidden" name="bn" value="Akaunting_2.0_WPS" />
+                <input type="hidden" name="bn" value="ievtds_2.0_WPS" />
 
                 <input type="submit" value="{{ trans('general.confirm') }}" class="btn btn-success" />
             </form>

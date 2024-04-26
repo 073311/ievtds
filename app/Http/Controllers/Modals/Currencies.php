@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Modals;
 
-use Akaunting\Money\Currency as MoneyCurrency;
+use ievtds\Money\Currency as MoneyCurrency;
 use App\Abstracts\Http\Controller;
 use App\Jobs\Setting\CreateCurrency;
 use App\Models\Setting\Currency;

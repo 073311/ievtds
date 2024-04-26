@@ -2,7 +2,7 @@
 
 namespace App\Abstracts;
 
-use Akaunting\Sortable\Traits\Sortable;
+use ievtds\Sortable\Traits\Sortable;
 use App\Events\Common\SearchStringApplied;
 use App\Events\Common\SearchStringApplying;
 use App\Traits\DateTime;

@@ -1,0 +1,50 @@
+{
+    "name": "ievtds/laravel-sortable",
+    "description": "Sortable behavior package for Laravel",
+    "keywords": [
+        "laravel",
+        "sort",
+        "sortable",
+        "sorting",
+        "model",
+        "view",
+        "blade",
+        "column"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Duliçi",
+            "email": "info@ievtds.com",
+            "homepage": "https://ievtds.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5|^10.0",
+        "orchestra/testbench": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ievtds\\Sortable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ievtds\\Sortable\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ievtds\\Sortable\\Provider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

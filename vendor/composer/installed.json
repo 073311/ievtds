@@ -1,17 +1,17 @@
 {
     "packages": [
         {
-            "name": "akaunting/laravel-apexcharts",
+            "name": "ievtds/laravel-apexcharts",
             "version": "3.0.1",
             "version_normalized": "3.0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-apexcharts.git",
+                "url": "https://github.com/ievtds/laravel-apexcharts.git",
                 "reference": "c4b6d6b94bef2ae00c7ea1fdb0ef79a1bfb7f78f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-apexcharts/zipball/c4b6d6b94bef2ae00c7ea1fdb0ef79a1bfb7f78f",
+                "url": "https://api.github.com/repos/ievtds/laravel-apexcharts/zipball/c4b6d6b94bef2ae00c7ea1fdb0ef79a1bfb7f78f",
                 "reference": "c4b6d6b94bef2ae00c7ea1fdb0ef79a1bfb7f78f",
                 "shasum": ""
             },
@@ -31,17 +31,17 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Apexcharts\\Provider"
+                        "ievtds\\Apexcharts\\Provider"
                     ],
                     "aliases": {
-                        "Apexcharts": "Akaunting\\Apexcharts\\Facade"
+                        "Apexcharts": "ievtds\\Apexcharts\\Facade"
                     }
                 }
             },
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Akaunting\\Apexcharts\\": "src"
+                    "ievtds\\Apexcharts\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -51,8 +51,8 @@
             "authors": [
                 {
                     "name": "Cüneyt Şentürk",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -67,23 +67,23 @@
                 "pie"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-apexcharts/issues",
-                "source": "https://github.com/akaunting/laravel-apexcharts/tree/3.0.1"
+                "issues": "https://github.com/ievtds/laravel-apexcharts/issues",
+                "source": "https://github.com/ievtds/laravel-apexcharts/tree/3.0.1"
             },
-            "install-path": "../akaunting/laravel-apexcharts"
+            "install-path": "../ievtds/laravel-apexcharts"
         },
         {
-            "name": "akaunting/laravel-debugbar-collector",
+            "name": "ievtds/laravel-debugbar-collector",
             "version": "2.1.1",
             "version_normalized": "2.1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-debugbar-collector.git",
+                "url": "https://github.com/ievtds/laravel-debugbar-collector.git",
                 "reference": "dc6a879f8dbfe5562679baf505f92ed13ec19afe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-debugbar-collector/zipball/dc6a879f8dbfe5562679baf505f92ed13ec19afe",
+                "url": "https://api.github.com/repos/ievtds/laravel-debugbar-collector/zipball/dc6a879f8dbfe5562679baf505f92ed13ec19afe",
                 "reference": "dc6a879f8dbfe5562679baf505f92ed13ec19afe",
                 "shasum": ""
             },
@@ -100,14 +100,14 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\DebugbarCollector\\Provider"
+                        "ievtds\\DebugbarCollector\\Provider"
                     ]
                 }
             },
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Akaunting\\DebugbarCollector\\": "src"
+                    "ievtds\\DebugbarCollector\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -117,41 +117,41 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 },
                 {
                     "name": "Sevan Nerse",
-                    "email": "sevan@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "sevan@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
-            "description": "Laravel Debugbar collector package for Akaunting",
+            "description": "Laravel Debugbar collector package for ievtds",
             "keywords": [
-                "akaunting",
+                "ievtds",
                 "debugbar",
                 "laravel"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-debugbar-collector/issues",
-                "source": "https://github.com/akaunting/laravel-debugbar-collector/tree/2.1.1"
+                "issues": "https://github.com/ievtds/laravel-debugbar-collector/issues",
+                "source": "https://github.com/ievtds/laravel-debugbar-collector/tree/2.1.1"
             },
-            "install-path": "../akaunting/laravel-debugbar-collector"
+            "install-path": "../ievtds/laravel-debugbar-collector"
         },
         {
-            "name": "akaunting/laravel-firewall",
+            "name": "ievtds/laravel-firewall",
             "version": "2.1.5",
             "version_normalized": "2.1.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-firewall.git",
+                "url": "https://github.com/ievtds/laravel-firewall.git",
                 "reference": "9529b1090d28684fbfbf57944a317457f1288cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-firewall/zipball/9529b1090d28684fbfbf57944a317457f1288cca",
+                "url": "https://api.github.com/repos/ievtds/laravel-firewall/zipball/9529b1090d28684fbfbf57944a317457f1288cca",
                 "reference": "9529b1090d28684fbfbf57944a317457f1288cca",
                 "shasum": ""
             },
@@ -170,14 +170,14 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Firewall\\Provider"
+                        "ievtds\\Firewall\\Provider"
                     ]
                 }
             },
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Akaunting\\Firewall\\": "src"
+                    "ievtds\\Firewall\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -187,8 +187,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -205,23 +205,23 @@
                 "xss"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-firewall/issues",
-                "source": "https://github.com/akaunting/laravel-firewall/tree/2.1.5"
+                "issues": "https://github.com/ievtds/laravel-firewall/issues",
+                "source": "https://github.com/ievtds/laravel-firewall/tree/2.1.5"
             },
-            "install-path": "../akaunting/laravel-firewall"
+            "install-path": "../ievtds/laravel-firewall"
         },
         {
-            "name": "akaunting/laravel-language",
+            "name": "ievtds/laravel-language",
             "version": "1.0.22",
             "version_normalized": "1.0.22.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-language.git",
+                "url": "https://github.com/ievtds/laravel-language.git",
                 "reference": "83285fb4ad450b406f2df8570090828e4326ee1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-language/zipball/83285fb4ad450b406f2df8570090828e4326ee1a",
+                "url": "https://api.github.com/repos/ievtds/laravel-language/zipball/83285fb4ad450b406f2df8570090828e4326ee1a",
                 "reference": "83285fb4ad450b406f2df8570090828e4326ee1a",
                 "shasum": ""
             },
@@ -235,10 +235,10 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Language\\Provider"
+                        "ievtds\\Language\\Provider"
                     ],
                     "aliases": {
-                        "Language": "Akaunting\\Language\\Facade"
+                        "Language": "ievtds\\Language\\Facade"
                     }
                 }
             },
@@ -248,7 +248,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Akaunting\\Language\\": "./src"
+                    "ievtds\\Language\\": "./src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -258,8 +258,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -270,23 +270,23 @@
                 "switcher"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-language/issues",
-                "source": "https://github.com/akaunting/laravel-language/tree/1.0.22"
+                "issues": "https://github.com/ievtds/laravel-language/issues",
+                "source": "https://github.com/ievtds/laravel-language/tree/1.0.22"
             },
-            "install-path": "../akaunting/laravel-language"
+            "install-path": "../ievtds/laravel-language"
         },
         {
-            "name": "akaunting/laravel-menu",
+            "name": "ievtds/laravel-menu",
             "version": "3.1.0",
             "version_normalized": "3.1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-menu.git",
+                "url": "https://github.com/ievtds/laravel-menu.git",
                 "reference": "913c6b1c53f7596cff7fea69afe76ba3f9cc22c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-menu/zipball/913c6b1c53f7596cff7fea69afe76ba3f9cc22c0",
+                "url": "https://api.github.com/repos/ievtds/laravel-menu/zipball/913c6b1c53f7596cff7fea69afe76ba3f9cc22c0",
                 "reference": "913c6b1c53f7596cff7fea69afe76ba3f9cc22c0",
                 "shasum": ""
             },
@@ -308,10 +308,10 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Menu\\Provider"
+                        "ievtds\\Menu\\Provider"
                     ],
                     "aliases": {
-                        "Menu": "Akaunting\\Menu\\Facade"
+                        "Menu": "ievtds\\Menu\\Facade"
                     }
                 }
             },
@@ -321,7 +321,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Akaunting\\Menu\\": "src"
+                    "ievtds\\Menu\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -331,8 +331,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -345,23 +345,23 @@
                 "sidebar"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-menu/issues",
-                "source": "https://github.com/akaunting/laravel-menu/tree/3.1.0"
+                "issues": "https://github.com/ievtds/laravel-menu/issues",
+                "source": "https://github.com/ievtds/laravel-menu/tree/3.1.0"
             },
-            "install-path": "../akaunting/laravel-menu"
+            "install-path": "../ievtds/laravel-menu"
         },
         {
-            "name": "akaunting/laravel-module",
+            "name": "ievtds/laravel-module",
             "version": "3.0.1",
             "version_normalized": "3.0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-module.git",
+                "url": "https://github.com/ievtds/laravel-module.git",
                 "reference": "a6d6cf4578759db636ce9063bd2c88b3ef73199a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-module/zipball/a6d6cf4578759db636ce9063bd2c88b3ef73199a",
+                "url": "https://api.github.com/repos/ievtds/laravel-module/zipball/a6d6cf4578759db636ce9063bd2c88b3ef73199a",
                 "reference": "a6d6cf4578759db636ce9063bd2c88b3ef73199a",
                 "shasum": ""
             },
@@ -378,10 +378,10 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Module\\Providers\\Laravel"
+                        "ievtds\\Module\\Providers\\Laravel"
                     ],
                     "aliases": {
-                        "Module": "Akaunting\\Module\\Facade"
+                        "Module": "ievtds\\Module\\Facade"
                     }
                 }
             },
@@ -391,7 +391,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Akaunting\\Module\\": "src"
+                    "ievtds\\Module\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -401,36 +401,36 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
             "description": "Module management package for Laravel",
             "keywords": [
-                "akaunting",
+                "ievtds",
                 "laravel",
                 "module",
                 "rad"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-module/issues",
-                "source": "https://github.com/akaunting/laravel-module/tree/3.0.1"
+                "issues": "https://github.com/ievtds/laravel-module/issues",
+                "source": "https://github.com/ievtds/laravel-module/tree/3.0.1"
             },
-            "install-path": "../akaunting/laravel-module"
+            "install-path": "../ievtds/laravel-module"
         },
         {
-            "name": "akaunting/laravel-money",
+            "name": "ievtds/laravel-money",
             "version": "5.1.2",
             "version_normalized": "5.1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-money.git",
+                "url": "https://github.com/ievtds/laravel-money.git",
                 "reference": "193fcc98e9ab829952e4a1b075a8845e89d15e8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-money/zipball/193fcc98e9ab829952e4a1b075a8845e89d15e8d",
+                "url": "https://api.github.com/repos/ievtds/laravel-money/zipball/193fcc98e9ab829952e4a1b075a8845e89d15e8d",
                 "reference": "193fcc98e9ab829952e4a1b075a8845e89d15e8d",
                 "shasum": ""
             },
@@ -452,7 +452,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Money\\Provider"
+                        "ievtds\\Money\\Provider"
                     ]
                 }
             },
@@ -462,7 +462,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Akaunting\\Money\\": "src"
+                    "ievtds\\Money\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -472,8 +472,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -486,23 +486,23 @@
                 "money"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-money/issues",
-                "source": "https://github.com/akaunting/laravel-money/tree/5.1.2"
+                "issues": "https://github.com/ievtds/laravel-money/issues",
+                "source": "https://github.com/ievtds/laravel-money/tree/5.1.2"
             },
-            "install-path": "../akaunting/laravel-money"
+            "install-path": "../ievtds/laravel-money"
         },
         {
-            "name": "akaunting/laravel-mutable-observer",
+            "name": "ievtds/laravel-mutable-observer",
             "version": "2.0.1",
             "version_normalized": "2.0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-mutable-observer.git",
+                "url": "https://github.com/ievtds/laravel-mutable-observer.git",
                 "reference": "f7367ae0fcf7e9ac640bee5ec016471564125b21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-mutable-observer/zipball/f7367ae0fcf7e9ac640bee5ec016471564125b21",
+                "url": "https://api.github.com/repos/ievtds/laravel-mutable-observer/zipball/f7367ae0fcf7e9ac640bee5ec016471564125b21",
                 "reference": "f7367ae0fcf7e9ac640bee5ec016471564125b21",
                 "shasum": ""
             },
@@ -519,14 +519,14 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\MutableObserver\\Provider"
+                        "ievtds\\MutableObserver\\Provider"
                     ]
                 }
             },
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Akaunting\\MutableObserver\\": "src"
+                    "ievtds\\MutableObserver\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -536,8 +536,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -550,23 +550,23 @@
                 "unmute"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-mutable-observer/issues",
-                "source": "https://github.com/akaunting/laravel-mutable-observer/tree/2.0.1"
+                "issues": "https://github.com/ievtds/laravel-mutable-observer/issues",
+                "source": "https://github.com/ievtds/laravel-mutable-observer/tree/2.0.1"
             },
-            "install-path": "../akaunting/laravel-mutable-observer"
+            "install-path": "../ievtds/laravel-mutable-observer"
         },
         {
-            "name": "akaunting/laravel-setting",
+            "name": "ievtds/laravel-setting",
             "version": "1.2.8",
             "version_normalized": "1.2.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-setting.git",
+                "url": "https://github.com/ievtds/laravel-setting.git",
                 "reference": "598cacc042cb5081366f03e5229edbe2a2f17cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-setting/zipball/598cacc042cb5081366f03e5229edbe2a2f17cdf",
+                "url": "https://api.github.com/repos/ievtds/laravel-setting/zipball/598cacc042cb5081366f03e5229edbe2a2f17cdf",
                 "reference": "598cacc042cb5081366f03e5229edbe2a2f17cdf",
                 "shasum": ""
             },
@@ -584,10 +584,10 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Setting\\Provider"
+                        "ievtds\\Setting\\Provider"
                     ],
                     "aliases": {
-                        "Setting": "Akaunting\\Setting\\Facade"
+                        "Setting": "ievtds\\Setting\\Facade"
                     }
                 }
             },
@@ -597,7 +597,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Akaunting\\Setting\\": "./src"
+                    "ievtds\\Setting\\": "./src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -607,8 +607,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -620,23 +620,23 @@
                 "persistent"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-setting/issues",
-                "source": "https://github.com/akaunting/laravel-setting/tree/1.2.8"
+                "issues": "https://github.com/ievtds/laravel-setting/issues",
+                "source": "https://github.com/ievtds/laravel-setting/tree/1.2.8"
             },
-            "install-path": "../akaunting/laravel-setting"
+            "install-path": "../ievtds/laravel-setting"
         },
         {
-            "name": "akaunting/laravel-sortable",
+            "name": "ievtds/laravel-sortable",
             "version": "2.0.1",
             "version_normalized": "2.0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-sortable.git",
+                "url": "https://github.com/ievtds/laravel-sortable.git",
                 "reference": "f0ac8c5c53d6196575011f23d85a5e9587cf321b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-sortable/zipball/f0ac8c5c53d6196575011f23d85a5e9587cf321b",
+                "url": "https://api.github.com/repos/ievtds/laravel-sortable/zipball/f0ac8c5c53d6196575011f23d85a5e9587cf321b",
                 "reference": "f0ac8c5c53d6196575011f23d85a5e9587cf321b",
                 "shasum": ""
             },
@@ -653,14 +653,14 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Sortable\\Provider"
+                        "ievtds\\Sortable\\Provider"
                     ]
                 }
             },
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Akaunting\\Sortable\\": "src"
+                    "ievtds\\Sortable\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -670,8 +670,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -687,23 +687,23 @@
                 "view"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-sortable/issues",
-                "source": "https://github.com/akaunting/laravel-sortable/tree/2.0.1"
+                "issues": "https://github.com/ievtds/laravel-sortable/issues",
+                "source": "https://github.com/ievtds/laravel-sortable/tree/2.0.1"
             },
-            "install-path": "../akaunting/laravel-sortable"
+            "install-path": "../ievtds/laravel-sortable"
         },
         {
-            "name": "akaunting/laravel-version",
+            "name": "ievtds/laravel-version",
             "version": "1.0.4",
             "version_normalized": "1.0.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/laravel-version.git",
+                "url": "https://github.com/ievtds/laravel-version.git",
                 "reference": "5d632c8ce54131bbe15f22ea135934efbf1fad85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/laravel-version/zipball/5d632c8ce54131bbe15f22ea135934efbf1fad85",
+                "url": "https://api.github.com/repos/ievtds/laravel-version/zipball/5d632c8ce54131bbe15f22ea135934efbf1fad85",
                 "reference": "5d632c8ce54131bbe15f22ea135934efbf1fad85",
                 "shasum": ""
             },
@@ -716,10 +716,10 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Akaunting\\Version\\Provider"
+                        "ievtds\\Version\\Provider"
                     ],
                     "aliases": {
-                        "Version": "Akaunting\\Version\\Facade"
+                        "Version": "ievtds\\Version\\Facade"
                     }
                 }
             },
@@ -729,7 +729,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Akaunting\\Version\\": "./src"
+                    "ievtds\\Version\\": "./src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -739,8 +739,8 @@
             "authors": [
                 {
                     "name": "Denis Duliçi",
-                    "email": "info@akaunting.com",
-                    "homepage": "https://akaunting.com",
+                    "email": "info@ievtds.com",
+                    "homepage": "https://ievtds.com",
                     "role": "Developer"
                 }
             ],
@@ -750,23 +750,23 @@
                 "version"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/laravel-version/issues",
-                "source": "https://github.com/akaunting/laravel-version/tree/1.0.4"
+                "issues": "https://github.com/ievtds/laravel-version/issues",
+                "source": "https://github.com/ievtds/laravel-version/tree/1.0.4"
             },
-            "install-path": "../akaunting/laravel-version"
+            "install-path": "../ievtds/laravel-version"
         },
         {
-            "name": "akaunting/module-offline-payments",
+            "name": "ievtds/module-offline-payments",
             "version": "3.0.2",
             "version_normalized": "3.0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/module-offline-payments.git",
+                "url": "https://github.com/ievtds/module-offline-payments.git",
                 "reference": "9ac105c829da615f244ecbebdb42295824c32c78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/module-offline-payments/zipball/9ac105c829da615f244ecbebdb42295824c32c78",
+                "url": "https://api.github.com/repos/ievtds/module-offline-payments/zipball/9ac105c829da615f244ecbebdb42295824c32c78",
                 "reference": "9ac105c829da615f244ecbebdb42295824c32c78",
                 "shasum": ""
             },
@@ -777,33 +777,33 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "description": "Offline Payments app for Akaunting",
-            "homepage": "https://akaunting.com",
+            "description": "Offline Payments app for ievtds",
+            "homepage": "https://ievtds.com",
             "keywords": [
                 "Accounting",
-                "akaunting",
+                "ievtds",
                 "invoice",
                 "laravel",
                 "offline-payments"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/module-offline-payments/issues",
-                "source": "https://github.com/akaunting/module-offline-payments/tree/3.0.2"
+                "issues": "https://github.com/ievtds/module-offline-payments/issues",
+                "source": "https://github.com/ievtds/module-offline-payments/tree/3.0.2"
             },
             "install-path": "../../modules/OfflinePayments"
         },
         {
-            "name": "akaunting/module-paypal-standard",
+            "name": "ievtds/module-paypal-standard",
             "version": "3.0.1",
             "version_normalized": "3.0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/akaunting/module-paypal-standard.git",
+                "url": "https://github.com/ievtds/module-paypal-standard.git",
                 "reference": "dbd7d2efadfcd99937a875abc335529fddf47739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akaunting/module-paypal-standard/zipball/dbd7d2efadfcd99937a875abc335529fddf47739",
+                "url": "https://api.github.com/repos/ievtds/module-paypal-standard/zipball/dbd7d2efadfcd99937a875abc335529fddf47739",
                 "reference": "dbd7d2efadfcd99937a875abc335529fddf47739",
                 "shasum": ""
             },
@@ -814,18 +814,18 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "description": "PayPal Standard app for Akaunting",
-            "homepage": "https://akaunting.com",
+            "description": "PayPal Standard app for ievtds",
+            "homepage": "https://ievtds.com",
             "keywords": [
                 "Accounting",
-                "akaunting",
+                "ievtds",
                 "invoice",
                 "laravel",
                 "paypal"
             ],
             "support": {
-                "issues": "https://github.com/akaunting/module-paypal-standard/issues",
-                "source": "https://github.com/akaunting/module-paypal-standard/tree/3.0.1"
+                "issues": "https://github.com/ievtds/module-paypal-standard/issues",
+                "source": "https://github.com/ievtds/module-paypal-standard/tree/3.0.1"
             },
             "install-path": "../../modules/PaypalStandard"
         },

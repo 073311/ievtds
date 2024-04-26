@@ -2,7 +2,7 @@
 
 namespace App\View\Components\Layouts\Wizard;
 
-use Akaunting\Money\Currency as MoneyCurrency;
+use ievtds\Money\Currency as MoneyCurrency;
 use App\Abstracts\View\Component;
 use App\Models\Common\Media;
 use App\Models\Setting\Currency;

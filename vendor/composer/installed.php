@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'akaunting/akaunting',
+        'name' => '073311/ievtds',
         'pretty_version' => '1.0.0+no-version-set',
         'version' => '1.0.0.0',
         'reference' => NULL,
@@ -10,7 +10,7 @@
         'dev' => false,
     ),
     'versions' => array(
-        'akaunting/akaunting' => array(
+        '073311/ievtds' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'reference' => NULL,
@@ -19,106 +19,106 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-apexcharts' => array(
+        'ievtds/laravel-apexcharts' => array(
             'pretty_version' => '3.0.1',
             'version' => '3.0.1.0',
             'reference' => 'c4b6d6b94bef2ae00c7ea1fdb0ef79a1bfb7f78f',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-apexcharts',
+            'install_path' => __DIR__ . '/../ievtds/laravel-apexcharts',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-debugbar-collector' => array(
+        'ievtds/laravel-debugbar-collector' => array(
             'pretty_version' => '2.1.1',
             'version' => '2.1.1.0',
             'reference' => 'dc6a879f8dbfe5562679baf505f92ed13ec19afe',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-debugbar-collector',
+            'install_path' => __DIR__ . '/../ievtds/laravel-debugbar-collector',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-firewall' => array(
+        'ievtds/laravel-firewall' => array(
             'pretty_version' => '2.1.5',
             'version' => '2.1.5.0',
             'reference' => '9529b1090d28684fbfbf57944a317457f1288cca',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-firewall',
+            'install_path' => __DIR__ . '/../ievtds/laravel-firewall',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-language' => array(
+        'ievtds/laravel-language' => array(
             'pretty_version' => '1.0.22',
             'version' => '1.0.22.0',
             'reference' => '83285fb4ad450b406f2df8570090828e4326ee1a',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-language',
+            'install_path' => __DIR__ . '/../ievtds/laravel-language',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-menu' => array(
+        'ievtds/laravel-menu' => array(
             'pretty_version' => '3.1.0',
             'version' => '3.1.0.0',
             'reference' => '913c6b1c53f7596cff7fea69afe76ba3f9cc22c0',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-menu',
+            'install_path' => __DIR__ . '/../ievtds/laravel-menu',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-module' => array(
+        'ievtds/laravel-module' => array(
             'pretty_version' => '3.0.1',
             'version' => '3.0.1.0',
             'reference' => 'a6d6cf4578759db636ce9063bd2c88b3ef73199a',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-module',
+            'install_path' => __DIR__ . '/../ievtds/laravel-module',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-money' => array(
+        'ievtds/laravel-money' => array(
             'pretty_version' => '5.1.2',
             'version' => '5.1.2.0',
             'reference' => '193fcc98e9ab829952e4a1b075a8845e89d15e8d',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-money',
+            'install_path' => __DIR__ . '/../ievtds/laravel-money',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-mutable-observer' => array(
+        'ievtds/laravel-mutable-observer' => array(
             'pretty_version' => '2.0.1',
             'version' => '2.0.1.0',
             'reference' => 'f7367ae0fcf7e9ac640bee5ec016471564125b21',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-mutable-observer',
+            'install_path' => __DIR__ . '/../ievtds/laravel-mutable-observer',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-setting' => array(
+        'ievtds/laravel-setting' => array(
             'pretty_version' => '1.2.8',
             'version' => '1.2.8.0',
             'reference' => '598cacc042cb5081366f03e5229edbe2a2f17cdf',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-setting',
+            'install_path' => __DIR__ . '/../ievtds/laravel-setting',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-sortable' => array(
+        'ievtds/laravel-sortable' => array(
             'pretty_version' => '2.0.1',
             'version' => '2.0.1.0',
             'reference' => 'f0ac8c5c53d6196575011f23d85a5e9587cf321b',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-sortable',
+            'install_path' => __DIR__ . '/../ievtds/laravel-sortable',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/laravel-version' => array(
+        'ievtds/laravel-version' => array(
             'pretty_version' => '1.0.4',
             'version' => '1.0.4.0',
             'reference' => '5d632c8ce54131bbe15f22ea135934efbf1fad85',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../akaunting/laravel-version',
+            'install_path' => __DIR__ . '/../ievtds/laravel-version',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/module-offline-payments' => array(
+        'ievtds/module-offline-payments' => array(
             'pretty_version' => '3.0.2',
             'version' => '3.0.2.0',
             'reference' => '9ac105c829da615f244ecbebdb42295824c32c78',
@@ -127,7 +127,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'akaunting/module-paypal-standard' => array(
+        'ievtds/module-paypal-standard' => array(
             'pretty_version' => '3.0.1',
             'version' => '3.0.1.0',
             'reference' => 'dbd7d2efadfcd99937a875abc335529fddf47739',

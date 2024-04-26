@@ -2,7 +2,7 @@
 
 namespace App\Abstracts;
 
-use Akaunting\MutableObserver\Traits\Mutable;
+use ievtds\MutableObserver\Traits\Mutable;
 
 abstract class Observer
 {

@@ -1,4 +1,4 @@
-<akaunting-edit-item-columns
+<ievtds-edit-item-columns
     type="{{ $type }}"
     :edit-column="{{ json_encode([
         'status' => true,
@@ -15,4 +15,4 @@
             ]
         ]
     ]) }}"
-></akaunting-edit-item-columns>
+></ievtds-edit-item-columns>

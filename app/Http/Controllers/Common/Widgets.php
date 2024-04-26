@@ -165,7 +165,7 @@ class Widgets extends Controller
         // Check is module
         $module = module($request->get('widget'));
 
-        if ($module instanceof \Akaunting\Module\Module) {
+        if ($module instanceof \ievtds\Module\Module) {
             $widget = app('Modules\\' . $module->getStudlyName() . '\Widgets\\' . ucfirst($request->get('widget')));
         } else {
             $widget = app('App\Widgets\\' .  ucfirst($request->get('widget')));

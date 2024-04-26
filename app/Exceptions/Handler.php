@@ -2,7 +2,7 @@
 
 namespace App\Exceptions;
 
-use Akaunting\Money\Exceptions\UnexpectedAmountException;
+use ievtds\Money\Exceptions\UnexpectedAmountException;
 use App\Events\Email\InvalidEmailDetected;
 use App\Exceptions\Http\Resource as ResourceException;
 use Illuminate\Auth\AuthenticationException;

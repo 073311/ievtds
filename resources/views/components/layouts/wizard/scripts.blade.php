@@ -1,8 +1,8 @@
 @stack('scripts_start')
     <!-- Core -->
     <script src="{{ asset('public/vendor/js-cookie/js.cookie.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('public/akaunting-js/generalAction.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('public/akaunting-js/popper.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/ievtds-js/generalAction.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/ievtds-js/popper.js') }}"></script>
 
     <script type="text/javascript">
         var wizard_translations = {!! json_encode($translations) !!};

@@ -69,7 +69,7 @@ class Settings extends Component
             }
 
             $menu->route('settings.module.edit', $m->getName(), ['alias' => $m->getAlias()], $m->get('setting_order', $order), [
-                'icon' => $m->get('icon', 'custom-akaunting'),
+                'icon' => $m->get('icon', 'custom-ievtds'),
                 'search_keywords' => $m->getDescription(),
             ]);
 

@@ -1,0 +1,41 @@
+{
+    "name": "ievtds/laravel-language",
+    "description": "Language switcher package for Laravel",
+    "keywords": [
+        "laravel",
+        "language",
+        "switcher"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Duliçi",
+            "email": "info@ievtds.com",
+            "homepage": "https://ievtds.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": ">=5.4.0",
+        "jenssegers/agent": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ievtds\\Language\\": "./src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ievtds\\Language\\Provider"
+            ],
+            "aliases": {
+                "Language": "ievtds\\Language\\Facade"
+            }
+        }
+    }
+}

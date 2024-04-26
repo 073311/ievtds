@@ -1,6 +1,6 @@
 <?php
 
-namespace Akaunting\Module\Commands;
+namespace ievtds\Module\Commands;
 
 use App\Abstracts\Commands\Module as Command;
 use App\Events\Module\Installed;

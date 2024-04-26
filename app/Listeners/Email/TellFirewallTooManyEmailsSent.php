@@ -2,8 +2,8 @@
 
 namespace App\Listeners\Email;
 
-use Akaunting\Firewall\Events\AttackDetected;
-use Akaunting\Firewall\Traits\Helper;
+use ievtds\Firewall\Events\AttackDetected;
+use ievtds\Firewall\Traits\Helper;
 use App\Events\Email\TooManyEmailsSent as Event;
 
 class TellFirewallTooManyEmailsSent

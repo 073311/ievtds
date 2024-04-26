@@ -289,7 +289,7 @@
                                 <div class="lg:w-1/4 lg:absolute">
                                     @stack('taxes_input_start')
 
-                                    <akaunting-select
+                                    <ievtds-select
                                         class="mb-0 select-tax"
                                         :form-classes="[{'has-error': form.errors.has('items.' + index + '.taxes') }]"
                                         :icon="''"
@@ -327,7 +327,7 @@
                                         :form-error="form.errors.get('items.' + index + '.taxes')"
                                         :no-data-text="'{{ trans('general.no_data') }}'"
                                         :no-matching-data-text="'{{ trans('general.no_matching_data') }}'"
-                                    ></akaunting-select>
+                                    ></ievtds-select>
 
                                     @stack('taxes_input_end')
                                 </div>
@@ -362,7 +362,7 @@
                                 <div class="lg:w-1/4 lg:absolute">
                                     @stack('taxes_input_start')
 
-                                    <akaunting-select
+                                    <ievtds-select
                                         class="mb-0 select-tax"
                                         style="margin-left: 1px; margin-right: -2px;"
                                         :form-classes="[{'has-error': form.errors.has('items.' + index + '.taxes') }]"
@@ -401,7 +401,7 @@
                                         :form-error="form.errors.get('items.' + index + '.taxes')"
                                         :no-data-text="'{{ trans('general.no_data') }}'"
                                         :no-matching-data-text="'{{ trans('general.no_matching_data') }}'"
-                                    ></akaunting-select>
+                                    ></ievtds-select>
 
                                     @stack('taxes_input_end')
                                 </div>

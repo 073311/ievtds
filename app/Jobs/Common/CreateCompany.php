@@ -11,7 +11,7 @@ use App\Interfaces\Job\ShouldCreate;
 use App\Models\Banking\Account;
 use App\Models\Common\Company;
 use App\Models\Setting\Currency;
-use Akaunting\Money\Currency as MoneyCurrency;
+use ievtds\Money\Currency as MoneyCurrency;
 use Illuminate\Support\Facades\Artisan;
 use OutOfBoundsException;
 

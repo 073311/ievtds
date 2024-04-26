@@ -1,4 +1,4 @@
-<akaunting-import
+<ievtds-import
     text-drop-file="{{ trans('import.drop_file') }}"
     text-extension-and-limitation-file="{!! trans('import.file_type_and_limitations', [
         'extensions' => strtoupper(config('excel.imports.extensions')),
@@ -72,4 +72,4 @@
     @endif
 
     v-model="{{ ! empty($attributes['v-model']) ? $attributes['v-model'] : (! empty($attributes['data-field']) ? 'form.' . $attributes['data-field'] . '.'. $name : 'form.' . $name) }}"
-></akaunting-import>
+></ievtds-import>

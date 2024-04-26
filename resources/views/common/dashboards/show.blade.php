@@ -138,7 +138,7 @@
             ]);
         @endphp
 
-        <akaunting-widget
+        <ievtds-widget
             v-if="widget_modal"
             :title="'{{ trans_choice('general.widgets', 1) }}'"
             :show="widget_modal"
@@ -153,7 +153,7 @@
             :text="{{ $text }}"
             :placeholder="{{ $placeholder }}"
             @cancel="onCancel">
-        </akaunting-widget>
+        </ievtds-widget>
     @endsection
 
     <x-slot name="content">

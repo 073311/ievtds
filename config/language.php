@@ -93,7 +93,7 @@ return [
     | This option indicates the middleware to change language.
     |
     */
-    'middleware'    => 'Akaunting\Language\Middleware\SetLocale',
+    'middleware'    => 'ievtds\Language\Middleware\SetLocale',
 
     /*
     |--------------------------------------------------------------------------
@@ -103,7 +103,7 @@ return [
     | This option indicates the controller to be used.
     |
     */
-    'controller'    => 'Akaunting\Language\Controllers\Language',
+    'controller'    => 'ievtds\Language\Controllers\Language',
 
     /*
     |--------------------------------------------------------------------------

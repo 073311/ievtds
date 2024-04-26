@@ -2,7 +2,7 @@
 
 namespace App\Traits;
 
-use Akaunting\Money\Money;
+use ievtds\Money\Money;
 
 trait Currencies
 {

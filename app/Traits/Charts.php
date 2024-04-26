@@ -2,7 +2,7 @@
 
 namespace App\Traits;
 
-use Akaunting\Apexcharts\Chart;
+use ievtds\Apexcharts\Chart;
 use Balping\JsonRaw\Raw;
 
 trait Charts

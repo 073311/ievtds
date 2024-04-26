@@ -2,7 +2,7 @@
 
 namespace App\Models\Auth;
 
-use Akaunting\Sortable\Traits\Sortable;
+use ievtds\Sortable\Traits\Sortable;
 use App\Traits\Tenants;
 use Laratrust\Models\LaratrustPermission;
 use Laratrust\Traits\LaratrustPermissionTrait;

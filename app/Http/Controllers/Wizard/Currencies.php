@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Wizard;
 
-use Akaunting\Money\Currency as MoneyCurrency;
+use ievtds\Money\Currency as MoneyCurrency;
 use App\Abstracts\Http\Controller;
 use App\Http\Requests\Setting\Currency as Request;
 use App\Jobs\Setting\CreateCurrency;
